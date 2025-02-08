@@ -1,0 +1,56 @@
+let english = document.getElementById('en')
+let portugues = document.getElementById('pt')
+
+english.onclick = function () {
+    document.querySelector('.inicio').textContent = 'Home'
+    document.querySelector('.habilidades').textContent = 'Skills'
+    document.querySelector('.modosimples').textContent = 'Simple Mode'
+    document.querySelector('.Muitoprazer').innerHTML = 'Nice to meet you, <a class="text-decoration-none text-white luis" style="font-family: Righteous;">Luis</a> <a style="color: #6854cc; font-family: Righteous;"  class="text-decoration-none">S.</a>'
+    document.querySelector('.msg').textContent = 'Front-End Developer'
+    document.querySelector('.texto_inicio').textContent = 'My goal is to create innovative and efficient solutions to solve real problems.'
+    document.querySelector('.btn-cv').textContent = 'DOWNLOAD CV'
+    document.querySelector('.sobremim').textContent = 'ABOUT ME'
+    document.querySelector('.textomim').textContent = `My name is Luis Siqueira, I'm 16 years old and I've always had the dream of becoming a Developer. Passionate about computing since I was a child, observing great systems creating incredible systems and with fire in my eyes, I decided to make this my pride.`
+    document.querySelector('.lermais').textContent = 'Read More'
+    document.querySelector('.txt_habilidades').textContent = 'Skills'
+    document.querySelector('.txt_html').textContent = 'HTML5 is a hypertext markup language, which we use to mark up the elements of a page and build it.'
+    document.querySelector('.txt_css').textContent = 'CSS3 is a style language used to describe the presentation of page elements by styling them.'
+    document.querySelector('.txt_javascript').textContent = 'JavaScript is an interpreted programming language used in web development to describe page functionality and behavior.'
+    document.querySelector('.txt_bootstrap').textContent = 'Bootstrap is a CSS framework that makes it easy to create responsive websites, offering a flexible grid, ready-made components and integration with JavaScript.'
+    document.querySelector('.sitedejogos').textContent = 'Gaming website'
+    document.querySelector('.txt_sitedejogos').textContent = 'The Game Museum is a website about games that shows details about them and prices.'
+    document.querySelector('.txt_blog').textContent = 'A blog from the Etec 1 DS AMS class about their achievements over the years.'
+    document.querySelector('.genioquiz').textContent = 'Genius Quiz'
+    document.querySelector('.txt_quiz').textContent = 'A quiz with 50 questions about general knowledge with pranks.'
+    document.querySelector('.contato').textContent = 'Contact'
+    document.querySelector('.certificados').textContent = 'Certificates'
+    document.querySelector('.falecomigo').textContent = 'Talk to me!'
+    document.querySelector('#contact-button').textContent = 'GET IN TOUCH'
+}
+
+portugues.onclick = function () {
+    document.querySelector('.inicio').textContent = 'Inicio'
+    document.querySelector('.habilidades').textContent = 'Habilidades'
+    document.querySelector('.modosimples').textContent = 'Modo Simples'
+    document.querySelector('.Muitoprazer').innerHTML = 'Muito Prazer, <a class="text-decoration-none text-white luis" style="font-family: Righteous;">Luis</a> <a style="color: #6854cc; font-family: Righteous;"  class="text-decoration-none">S.</a>'
+    document.querySelector('.msg').textContent = 'Desenvolvedor Front-End'
+    document.querySelector('.texto_inicio').textContent = 'Meu objetivo é criar soluções inovadoras e eficientes para resolver problemas reais.'
+    document.querySelector('.btn-cv').textContent = 'BAIXAR CV'
+    document.querySelector('.sobremim').textContent = 'SOBRE MIM'
+    document.querySelector('.textomim').textContent = `Me chamo Luis Siqueira, tenho 16 anos e sempre tive o sonho de se tornar um Desenvolvedor. Apaixonado desde criança na computação, observava os grandes criando sistemas incríveis e com fogo nos olhos, decidi, tornar disso meu orgulho.`
+    document.querySelector('.lermais').textContent = 'Ler Mais'
+    document.querySelector('.txt_habilidades').textContent = 'Habilidades'
+    document.querySelector('.txt_html').textContent = 'HTML5 é uma linguagem de marcação de hipertexto, que usamos para marcar os elementos de uma página e construí-la.'
+    document.querySelector('.txt_css').textContent = 'CSS3 é uma linguagem de estilo usada para descrever a apresentação dos elementos da página os estilizando.'
+    document.querySelector('.txt_javascript').textContent = 'JavaScript é uma linguagem de programação interpretada usada no desenvolvimento web para descrever funcionalidades e comportamentos da página.'
+    document.querySelector('.txt_bootstrap').textContent = 'Bootstrap é um framework CSS que facilita a criação de sites responsivos, oferecendo grid flexível, componentes prontos e integração com JavaScript.'
+    document.querySelector('.sitedejogos').textContent = 'Site de jogos'
+    document.querySelector('.txt_sitedejogos').textContent = 'The Game Museum é um site sobre jogos que mostra os detalhes sobre eles e preços.'
+    document.querySelector('.txt_blog').textContent = 'Um blog da classe Etec 1 DS AMS sobre suas conquistas durantes os anos.'
+    document.querySelector('.genioquiz').textContent = 'GênioQuiz'
+    document.querySelector('.txt_quiz').textContent = 'Um quiz com 50 perguntas sobre conhecimentos gerais com pegadinhas.'
+    document.querySelector('.contato').textContent = 'Contato'
+    document.querySelector('.certificados').textContent = 'Certificados'
+    document.querySelector('.falecomigo').textContent = 'Fale Comigo!'
+    document.querySelector('#contact-button').textContent = 'ENTRE EM CONTATO'
+}

@@ -1,0 +1,36 @@
+.minimal-toggle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.minimal-toggle {
+    width: 50px;
+    height: 25px;
+    background-color: #ccc;
+    border: none;
+    border-radius: 15px;
+    position: relative;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+.minimal-toggle:after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 2.5px;
+    left: 2.5px;
+    transition: transform 0.3s ease;
+}
+  
+.minimal-toggle.toggle-on {
+    background-color: #4caf50;
+}
+  
+.minimal-toggle.toggle-on:after {
+    transform: translateX(25px);
+}

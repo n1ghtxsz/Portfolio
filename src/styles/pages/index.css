@@ -1,0 +1,222 @@
+.item {
+    color: #fff;
+}
+
+.item:hover {
+    color: cyan;
+    transition: 0.3s ease;
+}
+
+
+.navitem-txt {
+    color: white;
+    width: max-content;
+    position: relative;
+    cursor: pointer;
+    margin: 100px auto;
+}
+
+.navitem-txt::after {
+    content: "";
+    border-radius: 20px;
+    position: absolute;
+    bottom: -5px;
+    height: 4px;
+    width: 100%;
+    left: 0;
+    background-color: #fff;
+    transition: 0.1s;
+    transition-timing-function: ease-in-out;
+    transform: scaleX(0);
+}
+
+.navitem-txt:hover::after {
+    transform: scaleX(1);
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.whatsapp-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 1000;
+    padding: 5px;
+    gap: 20px;
+}
+
+
+.btn-contato {
+    background-color: limegreen; /* Fundo verde */
+    color: black; /* Texto preto */
+    font-size: 16px; /* Tamanho do texto */
+    font-weight: bold; /* Texto em negrito */
+    border: none; /* Remove bordas */
+    padding: 10px 20px; /* Espaçamento interno */
+    cursor: pointer; /* Cursor de botão */
+    text-align: center; /* Alinha o texto */
+    text-transform: uppercase; /* Texto em maiúsculas */
+    display: inline-block; /* Mantém o botão como elemento de linha */
+}
+
+/* Efeito ao passar o mouse */
+.btn-contato:hover {
+    background-color: darkgreen; /* Fundo mais escuro */
+    color: white; /* Texto branco */
+}
+
+.btn-cv {
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #6854CC;
+    color: #fff;
+    font-size: 20px;
+    font-family: Sofia Sans Semi Condensed;
+    text-align: center;
+}
+
+.cardes {
+    width: 300px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.cardes:hover {
+    background-color: rgba(63, 63, 63, 0.5);
+    transition: ease 0.2s;
+}
+
+.pj-card {
+    width: 350px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.pj-card:hover {
+    background-color: rgba(63, 63, 63, 0.5);
+    transition: ease 0.2s;
+    cursor: pointer;
+}
+
+.navigation-pagination {
+    border: 2px solid rgba(128, 128, 128, 0.168);
+}
+
+.navigation-pagination>div {
+    border: 2px solid rgba(128, 128, 128, 0.168);
+}
+
+/* .navigation-pagination>ul>div:hover {
+    background-color: rgba(255, 255, 255, 0.309);
+} */
+
+.whatsapp-button {
+    background-color: transparent;
+    padding: 20px;
+    color: #0DC6EC;
+    width: 200px;
+    height: 70px;
+    border: 4px solid #0DC6EC;
+    font-size: 20px;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+.whatsapp-button:hover {
+    color: #fff;
+    background-color: #0DC6EC;
+    transition: 0.3s ease;
+}
+svg.bi-phone {
+    transform: rotateZ(-15deg);
+    color: lime;
+}
+svg.bi-envelope {
+    color: #0DC6EC;
+}
+
+div.flex-column {
+    padding: 150px;
+}
+
+img.eu {
+    box-shadow: 0 0 15px #6854CC, 0 0 30px #6854CC; 
+}
+
+.notebook {
+    animation: toUp 5s infinite;
+}
+
+.div-img {
+    width: 600px;
+    height: 500px;
+    background-color: #6854CC;
+    border-radius: 50%;
+}
+
+.instagram {
+    color: #fff;
+}
+
+.instagram:hover {
+    transition: ease 0.3s;
+    color: crimson;
+}
+
+.instagramblack {
+    color: black;
+}
+
+.instagramblack:hover {
+    transition: ease 0.3s;
+    color: crimson;
+}
+
+.github {
+    color: #fff;
+}
+
+.github:hover {
+    transition: ease 0.3s;
+    color: rgb(144, 134, 139);
+}
+
+.githubblack {
+    color: black;
+}
+
+.githubblack:hover {
+    transition: ease 0.3s;
+    color: rgb(144, 134, 139);
+}
+
+.linkedin {
+    color: #fff;
+}
+
+.linkedin:hover {
+    transition: ease 0.3s;
+    color: rgb(8, 55, 142);
+}
+
+.linkedinblack {
+    color: black;
+}
+
+.linkedinblack:hover {
+    transition: ease 0.3s;
+    color: rgb(8, 55, 142);
+}
+
+
+
