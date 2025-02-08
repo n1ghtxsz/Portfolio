@@ -26,6 +26,11 @@ english.onclick = function () {
     document.querySelector('.certificados').textContent = 'Certificates'
     document.querySelector('.falecomigo').textContent = 'Talk to me!'
     document.querySelector('#contact-button').textContent = 'GET IN TOUCH'
+    document.querySelector('.txt_read1').textContent = 'Since when did I have an interest in programming?'
+    document.querySelector('.txt_read2').textContent = 'I have always played games since I was little and during this phase I had a dream of having a game of my own, a game that I could be proud to say that I made and built, so since that time I tried to create and program something, but it never worked out very well. When I witnessed the Web Development part I fell in love with this area even more.'
+    document.querySelector('.txt_read3').textContent = 'Why did I decide on the Front-End area?'
+    document.querySelector('.txt_read4').textContent = 'While studying the area of ​​programming itself, I identified more with this area of ​​Front-End, because of creating an interesting and functional design for users, I feel like I was drawing by hand and traveling in the world of my imagination.'
+    document.querySelector('.btn-danger').textContent = 'Close'
 }
 
 portugues.onclick = function () {
@@ -53,4 +58,9 @@ portugues.onclick = function () {
     document.querySelector('.certificados').textContent = 'Certificados'
     document.querySelector('.falecomigo').textContent = 'Fale Comigo!'
     document.querySelector('#contact-button').textContent = 'ENTRE EM CONTATO'
+    document.querySelector('.txt_read1').textContent = 'Desde quando tive interesse em programação?'
+    document.querySelector('.txt_read2').textContent = 'Eu sempre joguei jogos desde pequeno e durante essa fase eu tinha um sonho de ter um jogo meu, um game que eu poderia me orgulhar de dizer que fui eu que fiz e construí, então desde essa época eu tentava criar e programar algo, porém nunca deu muito certo. Quando eu presenciei a parte do Desenvolvimento Web eu me apaixonei ainda mais por essa área.'
+    document.querySelector('.txt_read3').textContent = 'Porque decidi a área Front-End?'
+    document.querySelector('.txt_read4').textContent = 'Enquanto estudava sobre a área da programação em si, eu me identifiquei mais com essa área do Front-End, pelo motivo de criar um design interessante e funcional para os usuários, sinto como se estivesse desenhando a mão e viajando no mundo da minha imaginação.'
+    document.querySelector('.btn-danger').textContent = 'Fechar'
 }

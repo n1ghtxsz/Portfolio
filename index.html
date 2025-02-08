@@ -73,7 +73,7 @@
                 <div class="w-25 p-4">
                     <h1 class="fs-1 text-center text-info sobremim">SOBRE MIM</h1>
                     <p style="font-family: Sofia Sans Semi Condensed;" class="mt-5 fs-4 text-white textomim">Me chamo Luis Siqueira, tenho 16 anos e sempre tive o sonho de se tornar um Desenvolvedor. Apaixonado desde criança na computação, observava os grandes criando sistemas incríveis e com fogo nos olhos, decidi, tornar disso meu orgulho. </p>
-                    <button class="btn-cv mt-5 fs-4 lermais">Ler Mais</button>
+                    <button onclick="abrirModal()" class="btn-cv mt-5 fs-4 lermais">Ler Mais</button>
                 </div>
                 <img src="src/assets/images/mim.jpg" class="my-auto scrolling rounded-4 shadow-md" style="width: 400px; height: 300px;">
             </section>
@@ -186,10 +186,34 @@
         </main>
         <footer>
             <div class="d-flex whatsapp-icon">
-                <img id="whatsapp-icon" src="src/assets/images/whatsapp.avif" class="" width="50"> 
+                <img id="whatsapp-icon" src="src/assets/images/whatsapp.avif" width="50"> 
                 <button id="contact-button" class="d-none"><span>ENTRE EM CONTATO</span></button>
             </div>
         </footer>
+        <div class="modal-overlay" id="modalOverlay"></div>
+        <div id="modal" style="overflow: hidden;" class="d-none border border-5 border-secondary w-50 h-50 bg-light text-dark modal">
+            <div class="purple-default" style="height: 30px; width: 100%;"></div>
+            <div class="p-5">
+                <div class="overflow-scroll overflow-x-hidden" style="height: 300px;">
+                    <h1 class="fs-5 txt_read1">Desde quando tive interesse em programação?</h1>
+                    <p class="mt-4 txt_read2">Eu sempre joguei jogos desde pequeno e durante essa fase eu tinha um sonho de ter um jogo meu, um game 
+                        que eu poderia me orgulhar de dizer que fui eu que fiz e construí, então desde essa época eu tentava criar 
+                        e programar algo, porém nunca deu muito certo. Quando eu presenciei a parte do Desenvolvimento Web eu me 
+                        apaixonei ainda mais por essa área.
+                    </p>
+                    <hr>
+                    <h1 class="fs-5 txt_read3">Porque decidi a área Front-End?</h1>
+                    <p class="mt-4 txt_read4">
+                        Enquanto estudava sobre a área da programação em si, eu me identifiquei mais com essa área do Front-End, pelo motivo de
+                        criar um design interessante e funcional para os usuários, sinto como se estivesse desenhando a mão e viajando no mundo da
+                        minha imaginação.
+                    </p>
+                </div>
+            </div>
+            <div class="d-flex justify-content-end align-items-center me-2">
+                <button onclick="fecharModal()" type="button" class="btn btn-danger">Fechar</button>
+            </div>
+        </div>
     </div>
     <script src="src/styles/vendor/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
     <script src="src/scripts/common/darkmode.js"></script>
@@ -198,5 +222,6 @@
     <script src="src/scripts/common/simplemode.js"></script>
     <script src="src/scripts/common/navigation.js"></script>
     <script src="src/scripts/common/idiomas.js"></script>
+    <script src="src/scripts/common/readmore.js"></script>
 </body>
 </html>
