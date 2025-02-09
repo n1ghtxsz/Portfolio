@@ -4,7 +4,6 @@ let portugues = document.getElementById('pt')
 english.onclick = function () {
     document.querySelector('.inicio').textContent = 'Home'
     document.querySelector('.habilidades').textContent = 'Skills'
-    document.querySelector('.modosimples').textContent = 'Simple Mode'
     document.querySelector('.Muitoprazer').innerHTML = 'Nice to meet you, <a class="text-decoration-none text-white luis" style="font-family: Righteous;">Luis</a> <a style="color: #6854cc; font-family: Righteous;"  class="text-decoration-none">S.</a>'
     document.querySelector('.msg').textContent = 'Front-End Developer'
     document.querySelector('.texto_inicio').textContent = 'My goal is to create innovative and efficient solutions to solve real problems.'
@@ -36,7 +35,6 @@ english.onclick = function () {
 portugues.onclick = function () {
     document.querySelector('.inicio').textContent = 'Inicio'
     document.querySelector('.habilidades').textContent = 'Habilidades'
-    document.querySelector('.modosimples').textContent = 'Modo Simples'
     document.querySelector('.Muitoprazer').innerHTML = 'Muito Prazer, <a class="text-decoration-none text-white luis" style="font-family: Righteous;">Luis</a> <a style="color: #6854cc; font-family: Righteous;"  class="text-decoration-none">S.</a>'
     document.querySelector('.msg').textContent = 'Desenvolvedor Front-End'
     document.querySelector('.texto_inicio').textContent = 'Meu objetivo é criar soluções inovadoras e eficientes para resolver problemas reais.'

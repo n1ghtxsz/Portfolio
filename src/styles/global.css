@@ -7,6 +7,10 @@
     font-family: Poppins;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     min-height: 100dvh;
     /* background-image: url(../../src/assets/images/coding.jpg);
